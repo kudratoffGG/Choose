@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHOOSE</title>
+  <link rel="stylesheet" href="css/choose.css">
+</head>
+<body>
+  <section>
+    <div id="left">
+      <div onclick="funcZero()" id="first">
+        <button id="one"> 1 </button>
+        <p id="title"> Choose title </p>
+      </div>
+      <div onclick="func2()" id="second">
+        <button id="two"> 2 </button>
+        <p id="desc"> Choose description </p>
+      </div>
+      <div onclick="func3()" id="third">
+        <button id="three"> 3 </button>
+        <p id="data"> Choose data </p>
+      </div>
+    </div>
+
+    <div id="right">
+      <div class="top">
+        <p class="tText">Choose title content</p>
+      </div>
+
+      <div class="bottom">
+        <button id="differ" onclick="func2()"> Submit title </button>
+        <button id="ikki1" onclick="ikki1()"> Back </button>
+        <button id="ikki2" onclick="ikki2()"> Submit Description </button>
+        <button id="uch1" onclick="uch1()"> No, go back! </button>
+        <button id="uch2" onclick="uch2()"> Yes, go ahead. </button>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <script src="choose.js"></script>
+
+</body>
+</html>

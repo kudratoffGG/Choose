@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #940494;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 800px;
+  height: 200px;
+  margin: 16% auto;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#left {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#first button {
+  color: #fff;
+  font-weight: 600;
+  background: #475ec5;
+}
+#first p {
+  color: #000;
+  font-weight: 700;
+}
+
+#first, #second, #third {
+  height: 30px;
+}
+#first, #second, #third:hover {
+  cursor: pointer;
+}
+
+#second:hover button {
+  color: #ffffff;
+  font-weight: 600;
+  background: #98999c;
+  transition: all .3s;
+}
+#second:hover p {
+  font-weight: 700;
+  transition: all .3s;
+  color: #3f3f3f;
+}
+
+#third:hover button {
+  color: #ffffff;
+  font-weight: 600;
+  background: #a8a7a7;
+  transition: all .3s;
+}
+#third:hover p {
+  font-weight: 700;
+  transition: all .3s;
+  color: #3f3f3f;
+}
+
+#one,#two,#three {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-style: none;
+  background: #a8a7a7;
+  font-weight: 500;
+  transition: all .3s;
+
+}
+#title, #desc, #data {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #838282;
+  transition: all .3s;
+}
+
+
+#right {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: relative;
+}
+
+.top p {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+#differ {
+  left: 5px;
+}
+#ikki1, #uch1 {
+  left: 10px;
+}
+#ikki2, #uch2 {
+  right: 10px;
+}
+
+#sub, #uch1, #uch2, #ikki1, #ikki2, #differ {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+}
+#sub, #uch1, #uch2, #ikki1, #ikki2, #differ:hover {
+  cursor: pointer;
+}
+#sub, #uch1, #uch2, #ikki1, #ikki2 {
+  display: none;
+}
+
+
+
+
